@@ -15,14 +15,10 @@ NEWSPIDER_MODULE = "book_scraping.spiders"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "book_scraping (+http://www.yourdomain.com)"
-# USER_AGENT = "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.86 Mobile Safari/537.36 (compatible; Googlebot/2.1; http://www.google.com/bot.html)"
-USER_AGENT ="Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) [ip:66.249.70.57]"
+USER_AGENT = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) [ip:66.249.70.57]"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
-
-# Proxy
-# PROXY_POOL_ENABLED = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -62,13 +58,6 @@ ROBOTSTXT_OBEY = True
 # DOWNLOADER_MIDDLEWARES = {
 #     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
 #     'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
-# }
-
-# DOWNLOADER_MIDDLEWARES = {
-#     # ...
-#     'scrapy_proxy_pool.middlewares.ProxyPoolMiddleware': 610,
-#     'scrapy_proxy_pool.middlewares.BanDetectionMiddleware': 620,
-#     # ...
 # }
 
 # Enable or disable extensions
